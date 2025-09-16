@@ -34,7 +34,7 @@ mkdir /var/lib/akbarstorevpn;
 echo "IP=" >> /var/lib/akbarstorevpn/ipvps.conf
 wget https://raw.githubusercontent.com/vhsec/scriptvps/main/ssh/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
-wget https://raw.githubusercontent.com/vhsec/scriptvps/main/xray/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+wget https://raw.githubusercontent.com/srpcom/scvps/main/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
 wget https://raw.githubusercontent.com/vhsec/scriptvps/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/vhsec/scriptvps/main/sstp/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
